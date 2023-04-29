@@ -1,0 +1,38 @@
+/* Стили для таблицы */
+#users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  #users-table th,
+  #users-table td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  #users-table th {
+    background-color: #f2f2f2;
+  }
+  
+  #users-table tbody tr:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  /* Стили для подробной информации о пользователе */
+  #user-details {
+    margin-top: 1rem;
+  }
+  
+  #user-details article {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #f2f2f2;
+  }
+  
+  #user-details h2 {
+    margin-top: 0;
+  }
+  
